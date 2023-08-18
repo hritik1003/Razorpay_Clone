@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#tab1{
+    clip-path: polygon(
+        100% 10%,
+        0% 0,
+        70% 0,
+        100% 40%,
+        100% 100%,
+        100% 100%,
+        0% 100%,
+        0% 100%,
+        0% 0%
+    );
+
+}
+
+.hclass:hover{
+    transform: scale(1.1);
+    transition: 400ms;
+    #tab-image{
+        opacity: 1;
+    }
+}
+
+
